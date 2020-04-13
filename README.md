@@ -16,6 +16,7 @@ Several classes that give you Protection for your .NET Application.
 ### Anti-debugging attacks
 - IsDebuggerPresent
 - CheckRemoteDebuggerPresent
+- Parent Process.
 
 ### Anti-Dumping
 - Erase PE header from memory (Fix For Winform App and Console App)
