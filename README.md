@@ -97,6 +97,9 @@ Several classes that give you Protection for your .NET Application.
 
 
   ## Special thanks :
+- [ElektroStudios](https://github.com/ElektroStudios): ElektroStudios For its Snippet FileDirSearcher and other Functions.
+   - Which are part of its [DevCase Framework](https://codecanyon.net/item/elektrokit-class-library-for-net/19260282)
+
 - [LordNoteworthy](https://github.com/LordNoteworthy): LordNoteworthy For your Project al-khaser
 
   
