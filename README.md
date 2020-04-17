@@ -1,6 +1,6 @@
 # DestroyerProtection
 
-![Preview](https://i.imgur.com/tN8zOfd.png)
+![Preview](https://i.imgur.com/tN8zOfd.png) ![Preview](https://i.ibb.co/nQybzxG/S2.png)
 
 ## Introduction
 Several classes that give you Protection for your .NET Application.
