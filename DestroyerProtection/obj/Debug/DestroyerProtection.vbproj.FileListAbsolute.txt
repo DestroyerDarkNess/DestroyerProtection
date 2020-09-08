@@ -1,0 +1,10 @@
+C:\Users\S4Lsalsoft\Documents\ASD\DestroyerProtection\DestroyerProtection\bin\Debug\DestroyerProtection.exe.config
+C:\Users\S4Lsalsoft\Documents\ASD\DestroyerProtection\DestroyerProtection\obj\Debug\DestroyerProtection.pdb
+C:\Users\S4Lsalsoft\Documents\ASD\DestroyerProtection\DestroyerProtection\bin\Debug\DestroyerProtection.exe
+C:\Users\S4Lsalsoft\Documents\ASD\DestroyerProtection\DestroyerProtection\bin\Debug\DestroyerProtection.pdb
+C:\Users\S4Lsalsoft\Documents\ASD\DestroyerProtection\DestroyerProtection\bin\Debug\DestroyerProtection.xml
+C:\Users\S4Lsalsoft\Documents\ASD\DestroyerProtection\DestroyerProtection\obj\Debug\DestroyerProtection.Form1.resources
+C:\Users\S4Lsalsoft\Documents\ASD\DestroyerProtection\DestroyerProtection\obj\Debug\DestroyerProtection.Resources.resources
+C:\Users\S4Lsalsoft\Documents\ASD\DestroyerProtection\DestroyerProtection\obj\Debug\DestroyerProtection.vbproj.GenerateResource.Cache
+C:\Users\S4Lsalsoft\Documents\ASD\DestroyerProtection\DestroyerProtection\obj\Debug\DestroyerProtection.exe
+C:\Users\S4Lsalsoft\Documents\ASD\DestroyerProtection\DestroyerProtection\obj\Debug\DestroyerProtection.xml

@@ -1,0 +1,164 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DestroyerProtectionLib
+</name>
+</assembly>
+<members>
+<member name="M:DestroyerProtectionLib.Destroyer.Utils.DeleteSelfApplication(System.Int32)">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Deletes the self application executable file.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+
+</member><member name="M:DestroyerProtectionLib.Destroyer.Utils.DeleteSelfApplication(System.TimeSpan)">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Deletes the self application executable file.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+ <param name="delay">
+ A delay interval to wait (asynchronously) before proceeding to automatic deletion.
+ </param>
+ ----------------------------------------------------------------------------------------------------
+
+</member><member name="M:DestroyerProtectionLib.Destroyer.Utils.CmdMessage(System.String,System.Drawing.Size)">
+	<summary>
+ Execute CMD with message And Config Console Size.
+ </summary>
+</member><member name="M:DestroyerProtectionLib.Destroyer.Utils.Encrypt(System.String,System.String)">
+	<summary>
+ Encrypt text using AES Algorithm
+ </summary>
+	<param name="text">Text to encrypt</param>
+	<param name="password">Password with which to encrypt</param>
+	<returns>Returns encrypted text</returns>
+	<remarks></remarks>
+</member><member name="M:DestroyerProtectionLib.Destroyer.Utils.Decrypt(System.String,System.String)">
+	<summary>
+ Decrypt text using AES Algorithm
+ </summary>
+	<param name="text">Text to decrypt</param>
+	<param name="password">Password with which to decrypt</param>
+	<returns>Returns decrypted text</returns>
+	<remarks></remarks>
+</member><member name="M:DestroyerProtectionLib.FileDirSearcher.GetFiles(System.String,System.IO.SearchOption,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.Boolean,System.Boolean)">
+	<summary>
+ Gets the files those matches the criteria inside the specified directory and/or sub-directories.
+ </summary>
+	<param name="dirPath">The root directory path to search for files.</param>
+	<param name="searchOption">The searching mode.</param>
+	<param name="fileNamePatterns">The file name pattern(s) to match.</param>
+	<param name="fileExtPatterns">The file extension pattern(s) to match.</param>
+	<param name="ignoreCase">If <c>True</c>, ignores the comparing case of <paramref name="fileNamePatterns"/> and <paramref name="fileExtPatterns"/> patterns.</param>
+	<param name="throwOnError">Determines whether exceptions will be thrown, like access denied to file or directory.</param>
+	<returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> instance containing the files information.</returns>
+	<exception cref="T:System.ArgumentException">dirPath or searchOption</exception>
+</member><member name="M:DestroyerProtectionLib.FileDirSearcher.GetFilePaths(System.String,System.IO.SearchOption,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.Boolean,System.Boolean)">
+	<summary>
+ Gets the filepaths those matches the criteria inside the specified directory and/or sub-directories.
+ </summary>
+	<param name="dirPath">The root directory path to search for files.</param>
+	<param name="searchOption">The searching mode.</param>
+	<param name="fileNamePatterns">The file name pattern(s) to match.</param>
+	<param name="fileExtPatterns">The file extension pattern(s) to match.</param>
+	<param name="ignoreCase">If <c>True</c>, ignores the comparing case of <paramref name="fileNamePatterns"/> and <paramref name="fileExtPatterns"/> patterns.</param>
+	<param name="throwOnError">Determines whether exceptions will be thrown, like access denied to file or directory.</param>
+	<returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> instance containing the filepaths.</returns>
+	<exception cref="T:System.ArgumentException">dirPath or searchOption</exception>
+</member><member name="M:DestroyerProtectionLib.FileDirSearcher.GetDirs(System.String,System.IO.SearchOption,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.Boolean,System.Boolean)">
+	<summary>
+ Gets the directories those matches the criteria inside the specified directory and/or sub-directories.
+ </summary>
+	<param name="dirPath">The root directory path to search for directories.</param>
+	<param name="searchOption">The searching mode.</param>
+	<param name="dirPathPatterns">The directory path pattern(s) to match.</param>
+	<param name="dirNamePatterns">The directory name pattern(s) to match.</param>
+	<param name="ignoreCase">If <c>True</c>, ignores the comparing case of <paramref name="dirPathPatterns"/> and <paramref name="dirNamePatterns"/> patterns.</param>
+	<param name="throwOnError">Determines whether exceptions will be thrown, like access denied to directory.</param>
+	<returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> instance containing the dirrectories information.</returns>
+	<exception cref="T:System.ArgumentException">dirPath or searchOption</exception>
+</member><member name="M:DestroyerProtectionLib.FileDirSearcher.GetDirPaths(System.String,System.IO.SearchOption,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.Boolean,System.Boolean)">
+	<summary>
+ Gets the filepaths those matches the criteria inside the specified directory and/or sub-directories.
+ </summary>
+	<param name="dirPath">The root directory path to search for directories.</param>
+	<param name="searchOption">The searching mode.</param>
+	<param name="dirPathPatterns">The directory path pattern(s) to match.</param>
+	<param name="dirNamePatterns">The directory name pattern(s) to match.</param>
+	<param name="ignoreCase">If <c>True</c>, ignores the comparing case of <paramref name="dirPathPatterns"/> and <paramref name="dirNamePatterns"/> patterns.</param>
+	<param name="throwOnError">Determines whether exceptions will be thrown, like access denied to directory.</param>
+	<returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> instance containing the directory paths.</returns>
+	<exception cref="T:System.ArgumentException">dirPath or searchOption</exception>
+</member><member name="M:DestroyerProtectionLib.FileDirSearcher.AnalyzePath(System.String@)">
+	<summary>
+ Analyzes a directory path and perform specific changes on it.
+ </summary>
+	<param name="dirPath">The directory path.</param>
+	<exception cref="T:System.ArgumentNullException">dirPath;Value is null, empty, or white-spaced.</exception>
+</member><member name="M:DestroyerProtectionLib.FileDirSearcher.CollectFiles(System.Collections.Concurrent.ConcurrentQueue{System.IO.FileInfo},System.String,System.IO.SearchOption,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.Boolean,System.Boolean)">
+	<summary>
+ Collects the files those matches the criteria inside the specified directory and/or sub-directories.
+ </summary>
+	<param name="queue">The <see cref="T:System.Collections.Concurrent.ConcurrentQueue`1"/> instance to enqueue new files.</param>
+	<param name="dirPath">The root directory path to search for files.</param>
+	<param name="searchOption">The searching mode.</param>
+	<param name="fileNamePatterns">The file name pattern(s) to match.</param>
+	<param name="fileExtPatterns">The file extension pattern(s) to match.</param>
+	<param name="ignoreCase">If <c>True</c>, ignores the comparing case of <paramref name="fileNamePatterns"/> and <paramref name="fileExtPatterns"/> patterns.</param>
+	<param name="throwOnError">Determines whether exceptions will be thrown, like access denied to file or directory.</param>
+</member><member name="M:DestroyerProtectionLib.FileDirSearcher.CollectFilePaths(System.Collections.Concurrent.ConcurrentQueue{System.String},System.String,System.IO.SearchOption,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.Boolean,System.Boolean)">
+	<summary>
+ Collects the filepaths those matches the criteria inside the specified directory and/or sub-directories.
+ </summary>
+	<param name="queue">The <see cref="T:System.Collections.Concurrent.ConcurrentQueue`1"/> instance to enqueue new filepaths.</param>
+	<param name="dirPath">The root directory path to search for files.</param>
+	<param name="searchOption">The searching mode.</param>
+	<param name="fileNamePatterns">The file name pattern(s) to match.</param>
+	<param name="fileExtPatterns">The file extension pattern(s) to match.</param>
+	<param name="ignoreCase">If <c>True</c>, ignores the comparing case of <paramref name="fileNamePatterns"/> and <paramref name="fileExtPatterns"/> patterns.</param>
+	<param name="throwOnError">Determines whether exceptions will be thrown, like access denied to file or directory.</param>
+</member><member name="M:DestroyerProtectionLib.FileDirSearcher.CollectDirs(System.Collections.Concurrent.ConcurrentQueue{System.IO.DirectoryInfo},System.String,System.IO.SearchOption,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.Boolean,System.Boolean)">
+	<summary>
+ Collects the directories those matches the criteria inside the specified directory and/or sub-directories.
+ </summary>
+	<param name="queue">The <see cref="T:System.Collections.Concurrent.ConcurrentQueue`1"/> instance to enqueue new directories.</param>
+	<param name="dirPath">The root directory path to search for directories.</param>
+	<param name="searchOption">The searching mode.</param>
+	<param name="dirPathPatterns">The directory path pattern(s) to match.</param>
+	<param name="dirNamePatterns">The directory name pattern(s) to match.</param>
+	<param name="ignoreCase">If <c>True</c>, ignores the comparing case of <paramref name="dirPathPatterns"/> and <paramref name="dirNamePatterns"/> patterns.</param>
+	<param name="throwOnError">Determines whether exceptions will be thrown, like access denied to directory.</param>
+</member><member name="M:DestroyerProtectionLib.FileDirSearcher.CollectDirPaths(System.Collections.Concurrent.ConcurrentQueue{System.String},System.String,System.IO.SearchOption,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.Boolean,System.Boolean)">
+	<summary>
+ Collects the directory paths those matches the criteria inside the specified directory and/or sub-directories.
+ </summary>
+	<param name="queue">The <see cref="T:System.Collections.Concurrent.ConcurrentQueue`1"/> instance to enqueue new directory paths.</param>
+	<param name="dirPath">The root directory path to search for directories.</param>
+	<param name="searchOption">The searching mode.</param>
+	<param name="dirPathPatterns">The directory path pattern(s) to match.</param>
+	<param name="dirNamePatterns">The directory name pattern(s) to match.</param>
+	<param name="ignoreCase">If <c>True</c>, ignores the comparing case of <paramref name="dirPathPatterns"/> and <paramref name="dirNamePatterns"/> patterns.</param>
+	<param name="throwOnError">Determines whether exceptions will be thrown, like access denied to directory.</param>
+</member><member name="T:DestroyerProtectionLib.FileDirSearcher">
+	<summary>
+ Searchs for files and directories.
+ </summary>
+</member><member name="P:DestroyerProtectionLib.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:DestroyerProtectionLib.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:DestroyerProtectionLib.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

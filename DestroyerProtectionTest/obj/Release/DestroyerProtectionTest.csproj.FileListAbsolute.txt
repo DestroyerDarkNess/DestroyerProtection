@@ -1,0 +1,12 @@
+C:\Users\S4Lsalsoft\Documents\ASD\DestroyerProtection\DestroyerProtectionTest\obj\Release\DestroyerProtectionTest.csprojResolveAssemblyReference.cache
+C:\Users\S4Lsalsoft\Documents\ASD\DestroyerProtection\DestroyerProtectionTest\obj\Release\DestroyerProtectionTest.Form1.resources
+C:\Users\S4Lsalsoft\Documents\ASD\DestroyerProtection\DestroyerProtectionTest\obj\Release\DestroyerProtectionTest.Properties.Resources.resources
+C:\Users\S4Lsalsoft\Documents\ASD\DestroyerProtection\DestroyerProtectionTest\obj\Release\DestroyerProtectionTest.csproj.GenerateResource.Cache
+C:\Users\S4Lsalsoft\Documents\ASD\DestroyerProtection\DestroyerProtectionTest\bin\Release\DestroyerProtectionTest.exe.config
+C:\Users\S4Lsalsoft\Documents\ASD\DestroyerProtection\DestroyerProtectionTest\bin\Release\DestroyerProtectionTest.exe
+C:\Users\S4Lsalsoft\Documents\ASD\DestroyerProtection\DestroyerProtectionTest\bin\Release\DestroyerProtectionTest.pdb
+C:\Users\S4Lsalsoft\Documents\ASD\DestroyerProtection\DestroyerProtectionTest\bin\Release\DestroyerProtectionLib.dll
+C:\Users\S4Lsalsoft\Documents\ASD\DestroyerProtection\DestroyerProtectionTest\bin\Release\DestroyerProtectionLib.pdb
+C:\Users\S4Lsalsoft\Documents\ASD\DestroyerProtection\DestroyerProtectionTest\bin\Release\DestroyerProtectionLib.xml
+C:\Users\S4Lsalsoft\Documents\ASD\DestroyerProtection\DestroyerProtectionTest\obj\Release\DestroyerProtectionTest.exe
+C:\Users\S4Lsalsoft\Documents\ASD\DestroyerProtection\DestroyerProtectionTest\obj\Release\DestroyerProtectionTest.pdb

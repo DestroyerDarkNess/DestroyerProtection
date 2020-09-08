@@ -1,0 +1,8 @@
+C:\Users\S4Lsalsoft\Documents\ASD\DestroyerProtection\DestroyerProtectionLib\obj\Release\DestroyerProtectionLib.Resources.resources
+C:\Users\S4Lsalsoft\Documents\ASD\DestroyerProtection\DestroyerProtectionLib\obj\Release\DestroyerProtectionLib.vbproj.GenerateResource.Cache
+C:\Users\S4Lsalsoft\Documents\ASD\DestroyerProtection\DestroyerProtectionLib\bin\Release\DestroyerProtectionLib.dll
+C:\Users\S4Lsalsoft\Documents\ASD\DestroyerProtection\DestroyerProtectionLib\bin\Release\DestroyerProtectionLib.pdb
+C:\Users\S4Lsalsoft\Documents\ASD\DestroyerProtection\DestroyerProtectionLib\bin\Release\DestroyerProtectionLib.xml
+C:\Users\S4Lsalsoft\Documents\ASD\DestroyerProtection\DestroyerProtectionLib\obj\Release\DestroyerProtectionLib.dll
+C:\Users\S4Lsalsoft\Documents\ASD\DestroyerProtection\DestroyerProtectionLib\obj\Release\DestroyerProtectionLib.xml
+C:\Users\S4Lsalsoft\Documents\ASD\DestroyerProtection\DestroyerProtectionLib\obj\Release\DestroyerProtectionLib.pdb
