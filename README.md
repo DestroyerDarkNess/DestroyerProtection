@@ -93,6 +93,8 @@ Several classes that give you Protection for your .NET Application.
   - Auto-Delete Function.
   - CMD Message.
   
+  ### Exploits
+  - Debug Message Flood (In testing)
   
   ## Contributors
 - Destroyer : Creator and Developer.  / Discord : Destroyer#8328 
